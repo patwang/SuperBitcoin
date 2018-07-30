@@ -155,6 +155,7 @@ endif()
 #FIND_PACKAGE(LevelDB REQUIRED)
 SET(LevelDB_INCLUDE_DIR /home/zcash/src/leveldb/include/leveldb)
 SET(LEVELDB_LIBRARY /home/zcash/src/leveldb)
+SET(LEVELDB_INCLUDE_DIR /home/zcash/src/leveldb/include/leveldb)
 MESSAGE( STATUS ${LevelDB_INCLUDE_DIR})
 
 
