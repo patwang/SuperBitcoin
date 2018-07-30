@@ -1,6 +1,6 @@
 dependsdir = /home/zcash/depends/x86_64-unknown-linux-gnu
 
-export BOOST_INCLUDE_DIR="$(dependsdir)/include"
-export BOOST_LIBRARY_DIR="$(dependsdir)/lib"
 
-cmake .
+
+
+cmake . -DBOOST_INCLUDE_DIR="$(dependsdir)"  -DBOOST_LIBRARY_DIR="$(dependsdir)"
