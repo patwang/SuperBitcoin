@@ -69,7 +69,6 @@ SET( Boost_USE_STATIC_LIBS ON)
 #    SET(Boost_LIBRARIES ${BOOST_LIBRARIES_TEMP} ${Boost_LIBRARIES})
 #ENDIF()
 
-MESSAGE("test aaa")
 SET(Boost_FOUND 1)
 SET(Boost_CHRONO_FOUND 1)
 SET(Boost_FILESYSTEM_FOUND 1)
@@ -102,7 +101,6 @@ if(Boost_THREAD_FOUND)
     SET(HAVE_BOOST_THREAD 1)
 endif()
 
-MESSAGE("test bbb")
 
 #FIND_PACKAGE(libdb_cxx REQUIRED)
 
@@ -116,7 +114,6 @@ IF (LIBDB_CXX_INCLUDE_DIR AND LIBDB_CXX_LIBRARIES)
 #    target_link_libraries(main ${LIBDB_CXX_LIBRARIES})
 ENDIF (LIBDB_CXX_INCLUDE_DIR AND LIBDB_CXX_LIBRARIES)
 
-MESSAGE("test ccc")
 
 find_library(READLINE_LIBRARIES NAMES readline)
 find_path(READLINE_INCLUDE_DIR readline/readline.h)
@@ -155,7 +152,8 @@ endif()
 
 #ADD_DEFINITIONS(-DCHEAT_IDE)
 
-FIND_PACKAGE(LevelDB REQUIRED)
+#FIND_PACKAGE(LevelDB REQUIRED)
+SET(LevelDB_INCLUDE_DIR /home/zcash/depends/x86_64-unknown-linux-gnu/include)
 MESSAGE( STATUS ${LevelDB_INCLUDE_DIR})
 
 
