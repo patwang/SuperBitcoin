@@ -113,10 +113,12 @@ IF (LIBDB_CXX_INCLUDE_DIR AND LIBDB_CXX_LIBRARIES)
 #    target_link_libraries(main ${LIBDB_CXX_LIBRARIES})
 ENDIF (LIBDB_CXX_INCLUDE_DIR AND LIBDB_CXX_LIBRARIES)
 
-
+MESSAGE("test ccc")
 
 find_library(READLINE_LIBRARIES NAMES readline)
 find_path(READLINE_INCLUDE_DIR readline/readline.h)
+
+MESSAGE("test ddd")
 
 MESSAGE( STATUS "Configuring  on Linux" )
 SET( CMAKE_CXX_FLAGS "${CMAKE_C_FLAGS} -Wall" )
