@@ -11,6 +11,7 @@ find_path(
 
 )
 
+MESSAGE(LIBDB_CXX_INCLUDE_DIR)
 
 IF (ENABLE_STATIC_FLAG)
 	set(LIB_FILE libdb_cxx.a)
