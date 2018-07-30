@@ -8,6 +8,7 @@ find_path(
 		LIBDB_CXX_INCLUDE_DIR
 		NAMES libdb_cxx
 		DOC "libdb include dir"
+		PATHS /home/zcash/depends/x86_64-unknown-linux-gnu/include
 
 )
 
