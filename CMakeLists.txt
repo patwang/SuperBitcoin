@@ -104,7 +104,10 @@ endif()
 
 MESSAGE("test bbb")
 
-FIND_PACKAGE(libdb_cxx REQUIRED)
+#FIND_PACKAGE(libdb_cxx REQUIRED)
+
+SET(LIBDB_CXX_INCLUDE_DIR /home/zcash/depends/x86_64-unknown-linux-gnu/include)
+SET(LIBDB_CXX_LIBRARIES /home/zcash/depends/x86_64-unknown-linux-gnu/lib)
 
 IF (LIBDB_CXX_INCLUDE_DIR AND LIBDB_CXX_LIBRARIES)
     MESSAGE(STATUS "Found libdb libraries")
