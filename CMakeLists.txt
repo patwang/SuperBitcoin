@@ -153,7 +153,8 @@ endif()
 #ADD_DEFINITIONS(-DCHEAT_IDE)
 
 #FIND_PACKAGE(LevelDB REQUIRED)
-SET(LevelDB_INCLUDE_DIR /home/zcash/depends/x86_64-unknown-linux-gnu/include)
+SET(LevelDB_INCLUDE_DIR /home/zcash/src/leveldb/include/leveldb)
+SET(LEVELDB_LIBRARY /home/zcash/src/leveldb)
 MESSAGE( STATUS ${LevelDB_INCLUDE_DIR})
 
 
