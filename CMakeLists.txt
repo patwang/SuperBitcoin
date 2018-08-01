@@ -171,8 +171,8 @@ SET(OPENSSL_CRYPTO_LIBRARY /home/zcash/depends/x86_64-unknown-linux-gnu/lib)
 SET(EVENT_INCLUDE_DIR /home/zcash/depends/x86_64-unknown-linux-gnu/include)
 SET(EVENT_LIBRARY /home/zcash/depends/x86_64-unknown-linux-gnu/lib)
 
-#SET(LOG4CPP_INCLUDE_DIR /home/zcash/src/leveldb/include/leveldb)
-#SET(LOG4CPP_LIBRARY /home/zcash/src/leveldb)
+SET(LOG4CPP_INCLUDE_DIR /usr/local/include/log4cpp)
+SET(LOG4CPP_LIBRARY /usr/local/lib)
 
 
 
