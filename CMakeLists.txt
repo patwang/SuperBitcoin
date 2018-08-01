@@ -162,8 +162,8 @@ MESSAGE( STATUS ${LevelDB_INCLUDE_DIR})
 SET(Secp256k1_INCLUDE_DIR /home/zcash/src/secp256k1/include)
 SET(Secp256k1_LIBRARY /home/zcash/src/secp256k1/.libs)
 
-#SET(MINIUPNPC_INCLUDE_DIR /home/zcash/src/leveldb/include/leveldb)
-#SET(MINIUPNPC_LIBRARY /home/zcash/src/leveldb)
+SET(MINIUPNPC_INCLUDE_DIR /usr/include/miniupnpc)
+SET(MINIUPNPC_LIBRARY /usr/lib)
 
 SET(OPENSSL_INCLUDE_DIR /home/zcash/depends/x86_64-unknown-linux-gnu/include)
 SET(OPENSSL_CRYPTO_LIBRARY /home/zcash/depends/x86_64-unknown-linux-gnu/lib)
